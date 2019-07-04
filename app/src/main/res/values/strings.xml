@@ -1,0 +1,105 @@
+<!--<?xml version="1.0" encoding="utf-8"?> <!DOCTYPE resources [--><!--<!ENTITY scheme "http">--><!--<!ENTITY issueOption1 "Support">--><!--<!ENTITY issueOption2 "Feedback">--><!--<!ENTITY issueOption3 "Help">--><!--]>-->
+
+<resources>
+    <string name="app_name">Movies Stage 2</string>
+<string name="DATABASE_NAME">favorite</string>
+    <!---->
+    <!--<string name="authority">api.themoviedb.org</string>-->
+    <!--<string name="API_PARAM">api_key</string>-->
+    <!--<string name="http">http</string>-->
+    <string name="api_key">{api_key}</string>
+
+    <!--Movie Details-->
+    <string name="results">results</string>
+    <string name="title">title</string>
+    <string name="original_title">original_title</string>
+    <string name="release_date">release_date</string>
+    <string name="poster_path">poster_path</string>
+    <string name="vote_average">vote_average</string>
+    <string name="overview">overview</string>
+    <string name="author">author</string>
+    <string name="content">content</string>
+
+    <!--Videos API-->
+    <string name="id">id</string>
+    <string name="iso_639_1">iso_639_1</string>
+    <string name="iso_3166_1">iso_3166_1</string>
+    <string name="key">key</string>
+    <string name="name">name</string>
+    <string name="site">site</string>
+    <string name="size">size</string>
+    <string name="type">type</string>
+
+    <!--API details-->
+    <string name="imagePath">http://image.tmdb.org/t/p/w185//</string>
+    <string-array name="movie_url_details">
+
+        <item>{
+        \"scheme\":\"http\",
+        \"base_url\":\"api.themoviedb.org\",
+        \"paths\":[\"3\",\"movie\",\"popular\"],
+            \"params_name\":[\"api_key\"],
+        \"params_value\":[\"\"]}
+
+    </item>
+        <item>{
+        \"scheme\":\"http\",
+        \"base_url\":\"api.themoviedb.org\",
+        \"paths\":[\"3\",\"movie\",\"top_rated\"],
+            \"params_name\":[\"api_key\"],
+        \"params_value\":[\"\"]}
+
+    </item>
+
+    </string-array>
+
+    <string name="review">Reviews</string>
+    <string name="no_review">No Reviews Available</string>
+    <string name="review_url">http://api.themoviedb.org/3/movie/{movie_ID}/reviews?api_key={api_key}</string>
+
+    <string name="trailer">Trailers</string>
+    <string name="no_trailer">No Trailers Available</string>
+    <string name="videos_url">http://api.themoviedb.org/3/movie/{movie_ID}/videos?api_key={api_key}</string>
+<string name="youtube">https://www.youtube.com/watch?v={key}</string>
+
+    <string name="add_favorite">Add to favorite</string>
+    <string name="remove_favorite">Remove from favorite</string>
+
+    <string name="share_url">Sharing the trailer URL</string>
+    <!--menu options-->
+
+    <string name="action_settings">Settings</string>
+    <string name="pref_sort_label">pref_sort_label</string>
+    <string name="pref_sort_label_pop">Most Popular</string>
+    <string name="pref_sort_label_rate">Top Rated</string>
+    <string name="pref_sort_label_fav">Favorite</string>
+
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_sort_pop_value" translatable="false">pop</string>
+    <string name="pref_sort_rate_value" translatable="false">rate</string>
+    <string name="pref_sort_fav_value" translatable="false">fav</string>
+
+    <string name="reset">0</string>
+    <string name="set">1</string>
+
+    <string name="title_D">Title</string>
+    <string name="synopsis_D">A plot synopsis</string>
+    <string name="user_rating_D">User Rating</string>
+    <string name="release_date_D">Release Date</string>
+
+    <!--onSaveInstanceState-->
+    <string name="jsonResponse">jsonResponse</string>
+    <string name="sort_order">sort_order</string>
+
+    <!--Error Messages-->
+    <string name="no_internet_connection">No Network Connection</string>
+    <string name="no_review_trailer">Reviews and Trailers are not available as there is "No Network Connection"</string>
+    <string name="error_message">An error has occurred. Please try again</string>
+    <string name="error_fetch">An error has occurred in fetching Movie details - API KEY</string>
+    <string name="error_pop">Already sorted by popularity</string>
+    <string name="error_rate">Already sorted by rating</string>
+    <string name="permission_denied">Permission Denied</string>
+
+
+    <string name="overview_space">\u0009\u0009\u0009\u0009\u0009</string>
+</resources>

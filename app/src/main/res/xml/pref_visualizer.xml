@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- COMPLETED (1) Add a list preference -->
+
+    <CheckBoxPreference
+        android:title="@string/pref_sort_label_pop"
+        android:defaultValue="true"
+        android:key="@string/pref_sort_pop_value"
+        />
+
+    <CheckBoxPreference
+        android:title="@string/pref_sort_label_rate"
+        android:defaultValue="false"
+        android:key="@string/pref_sort_rate_value"
+        />
+
+    <CheckBoxPreference
+        android:title="@string/pref_sort_label_fav"
+        android:defaultValue="false"
+        android:key="@string/pref_sort_fav_value"
+        />
+
+</PreferenceScreen>
